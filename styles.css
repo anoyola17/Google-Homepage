@@ -1,0 +1,101 @@
+
+/* this is the top header */
+
+#top_right{
+    position: fixed;
+    display: flex;
+    top: 0px;
+    right: 0px;
+    margin: 10px 50px;
+    padding: 20px;
+    height: 30px;
+}
+
+
+
+/* this is where the Google logo is center */
+.google_logo{
+    position: center;
+    display: center;
+    height: 30px;
+    width: 300px;
+    padding: 70px;
+    margin: 10px auto;
+}
+
+
+
+/* this is the outside of the search bar display */
+form {
+    margin: 10px auto; 
+    width: max-content;
+    padding: 10px; 
+    position: relative;
+}
+
+
+
+/* this is the inside of the search bar display  */
+.search_input {
+    display: inline-flex;
+    width: 650px;
+    padding: 12px;
+    margin: 20px auto;
+    right: 0;
+    font-family: "Product Sans" sans-serif;
+    font-style: lighter;
+    font-size: 20px bold;
+    border: solid 0.1em grey;
+    border-radius: 2.5em;
+    border-color: lightgray;
+    border-style: round, bold;
+    box-shadow: 10px 5px 10px 5px lightgray;
+}
+
+
+/* below the search bar (outide: apps icons)  */
+.icons{
+    font-family: "Product Sans" sans-serif;
+    display:flex;
+    text-align: center;
+    padding: 20px;
+    margin: 20px 400px;
+}
+
+
+/* below the search bar (inside: apps icons)
+(changed the hyperlink deafult color)  */
+.icons a {
+  color: black;
+  text-decoration: none;
+}
+
+
+/* below the search bar (outside: apps icons)  */
+.icon_button{
+    padding: 10px 30px;
+    text-align: center;
+    margin: 10px 20px;
+    background-color: white;
+    border-radius: 1.5em;
+    border: solid lightgray;
+}
+
+
+#footer{
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    width: 150px;
+    height: 35px;
+    padding: 10px 10px;
+    margin-bottom: 40px;
+    font-family: "Product Sans" sans-serif;
+    color: rgb(43, 99, 209);
+    background-color: white;
+    border: solid 0.1em grey;
+    border-radius: 2.5em;
+    border-color: lightgray;
+    border-style: round, bold;
+    box-shadow: 10px 5px 10px 5px lightgray;
+}
